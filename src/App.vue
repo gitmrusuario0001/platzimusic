@@ -1,7 +1,7 @@
 <template lang="pug">
   #app
     img(src='https://gitmrusuario0001.github.io/platzimusic/dist/logo.png' alt='https://gitmrusuario0001.github.io/platzimusic/dist/logo.png')
-    h1 PlatziMusic
+    h1 *PlatziMusic
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
     spinner(v-show="loading")
